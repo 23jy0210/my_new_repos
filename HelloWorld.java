@@ -3,5 +3,12 @@ public class HelloWorld {
     system.out.println("Hello World");
     system.out.println("Hello World");
     system.out.println("Hello World");
+
+    system.out.println(getText());
+    
+  }
+
+  public String getText() {
+    return "this is function text";
   }
 }
